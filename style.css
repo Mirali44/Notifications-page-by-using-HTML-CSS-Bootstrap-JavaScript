@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: hsl(219, 12%, 42%);
+}
+body{
+    background-color: hsl(210, 60%, 98%) !important; 
+    font-size: 16px;
+}
+.contain{
+    width: 700px;
+    background-color: white;
+    margin: 50px auto;
+    padding: 40px 30px;
+}
+
+.unread{
+    background-color:hsl(211, 68%, 94%);
+    padding-left: 9px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 4px;
+    border-radius: 5px;
+}
+.read{
+    padding-left: 9px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 4px;
+}
+img{
+    width: 40px !important;
+    margin-top:6px;
+}
+.name{
+    color: black;
+    font-weight: bolder;
+    margin-top: 8px;
+}
+.something{
+    font-weight:800;
+}
+.chess{
+    color: rgb(12, 12, 142);
+    font-weight:800;
+}
+.extra{
+    border: 1px solid hsl(219, 12%, 42%);;
+    margin-left: 100px;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.sentence{
+display: inline-block;
+margin-top: 5px;
+}
+.img2{
+    width: 10%;
+    float: left;
+ 
+}
+.smith{
+    width: 90%;
+    float: left;
+}
+h5{
+    font-weight: 800 !important;
+    color: black;
+    display: inline-block;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.toggle{
+    margin-left: 10px;
+    display: inline-block;
+    padding: 3px 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+}
+.dot{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: red;
+    display: inline-block;
+}
+.right{
+    cursor: pointer;
+}
+ @media screen and (max-width:576px) {
+  .contain{
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 40px 10px;
+  }
+  .something{
+    margin-left: 4px;
+  }
+  .col-1{
+    margin-right: 20px;
+  }
+  .col-10{
+    padding-right: 0 !important;
+  }
+  .name{
+    margin-right: 4px;
+  }
+  .extra{
+    margin-left: 0;
+  }
+}
